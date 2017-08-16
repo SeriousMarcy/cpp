@@ -56,3 +56,11 @@ int read_arg(int argc, char* argv[]){
 
   }
 }
+
+
+void load_dictionary(){
+  ifstream file;
+  file.open("dict.dat");
+
+
+}

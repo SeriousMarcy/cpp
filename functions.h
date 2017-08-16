@@ -1,5 +1,12 @@
-#include <iostream>
-#include <stdio.h>
-#include <string.h>
-#include <fstream> 
-using namespace std;
+
+
+
+
+class functions{
+	public:
+		
+		int read_arg(int argc, char* argv[]);
+
+
+
+};

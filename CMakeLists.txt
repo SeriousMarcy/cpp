@@ -1,0 +1,5 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+project(intlist)
+ADD_EXECUTABLE(my_exe functions.cpp main.cpp)
+SET(CMAKE_CXX_FLAGS "-std=c++14 -Wall -pedantic -lboost_program_options")
+SET(CMAKE_CXX_COMPILER "/opt/rh/devtoolset-6/root/usr/bin/g++")

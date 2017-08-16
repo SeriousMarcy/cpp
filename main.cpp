@@ -1,6 +1,13 @@
-#include "functions.cpp"
+#include "functions.h"
 
 int main(int argc, char* argv[]){
-  read_arg(argc, argv);
-  return 0;
+  int data_structure;
+  char dict_name[50];
+  char file_name[50];
+  //list<int> list = {}
+	functions functions;
+ 	functions.read_arg(argc, argv);
+
+ 
+
 }
